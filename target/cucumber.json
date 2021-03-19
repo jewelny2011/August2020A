@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-19T07:40:22.323Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12622121000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid email and password",
+        "description": "",
+        "id": "login;login-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 640587000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 291000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDef.MyStepdefs.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid email address",
+            "match": {
+              "location": "stepDef.MyStepdefs.iEnterValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid password",
+            "match": {
+              "location": "stepDef.MyStepdefs.iEnterValidPassword()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login/login.feature",
+    "tags": []
+  }
+]
